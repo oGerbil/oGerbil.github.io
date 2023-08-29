@@ -1,0 +1,164 @@
+body {
+    /* font-family: "Open Sans", sans-serif; */
+    font-family: "Arial";
+    background: linear-gradient(to bottom right, rgb(163, 207, 234), rgb(79, 111, 238));
+}
+
+.main-title {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1rem;
+    font-weight: 900;
+}
+
+p {
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+
+/* h3 {
+    font-size: 1.2rem;
+} */
+
+hr {
+    background-color: black;
+}
+
+#chat-window {
+    display: block;
+
+    /* flex-direction: column; */
+    min-height: 100vh;
+    padding: 40px;
+    justify-content: space-between;
+}
+
+.user-box {
+    /* background-color: rgb(179, 145, 172); */
+}
+
+.bot-box {
+    /* background-color: rgb(64, 68, 84); */
+}
+
+.top-inputs,
+.bottom-inputs {
+    width: 80%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bottom-inputs {
+    margin-top: auto;
+}
+
+#questions {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid white;
+}
+
+#input-form {
+    display: none;
+}
+
+#api-form {
+    display: block;
+}
+
+#input-form,
+#api-form {
+    align-items: center;
+    width: 100%;
+    /* padding: 10px; */
+}
+
+.round-rect {
+    border-radius: 10px;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+#api-input,
+#input-input,
+#cat-input {
+    /* flex-grow: 1; */
+    padding: 10px;
+    /* margin-right: 10px; */
+    width: 100%;
+    /* margin: 5px 0px; */
+}
+
+.form-section {
+    margin: 15px 0px;
+}
+
+
+button[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    background-color: rgb(37, 37, 75);
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+
+.user-box,
+.bot-box {
+    width: 100%;
+    border: none;
+    padding-inline: 30px;
+    padding-block: 10px;
+    color: black;
+}
+
+.user-info,
+.bot-info {
+    padding: 15px;
+    display: block;
+    align-items: center;
+
+}
+.user-info {
+    text-align: left;
+}
+.bot-info {
+    text-align: justify;
+}
+
+#infos {
+    display: none;
+}
+
+.user-info img,
+.bot-info img {
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+}
+
+/* For smaller screens */
+@media only screen and (min-device-width: 320px) and (max-device-width: 400px) {
+    #chat-window {
+        width: 90%;
+    }
+}
+
+/* .response {
+
+} */
