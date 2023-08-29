@@ -1,0 +1,91 @@
+:root {
+    --primary-color: #e6e8e2;
+    --blue1: #778DA9;
+    --blue2: #415A77;
+    --blue3: #1B263B;
+    --blue4: #0D1B2A;
+    --secondary-color: #CCE3DE;
+    --green1: #EAF4F4;
+    --green2: #CCE3DE;
+    --green3: #A4C3B2;
+    --green4: #6B9080;
+}
+
+body {
+    font-family: "Poppins";
+    background: var(--secondary-color);
+    margin: 0px;
+    /*   font-family: "Arial"; */
+}
+
+h1 {
+    /*   font-weight: 900; */
+    color: var(--green4);
+}
+
+.btn-primary {
+    padding: 10px 30px;
+    background: var(--green4);
+    color: white;
+    border: none;
+    border-radius: 15px;
+    /* cursor: pointer; */
+    /*   border-width: 1px; */
+}
+
+.btn-primary:hover {
+    background: var(--green3);
+    color: black;
+}
+
+.med-img {
+    width: 10vw;
+}
+.nav-img {
+    width: 5rem;
+    height: auto;
+    padding: 0 10px;
+    transition: opacity 0.3s ease;
+    cursor: pointer;
+}
+.nav-img:hover {
+    opacity: 0.5;
+    /* transition: background-color 0.5s ease; */
+}
+
+/* .navbar-dark {
+    opacity: 0.3;
+} */
+
+.bg-dark {
+    background-color: rgba(22, 46, 32, 0.535) !important;
+}
+
+
+.intro {
+    padding: 10px 30px;
+    margin: auto;
+    max-width: 700px;
+
+}
+
+.card {
+    background: white;
+    border-radius: 15px;
+    padding: 30px 50px;
+    /* box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.2); */
+}
+
+.main-header {
+    height: 40vh;
+    background: url("https://www.ghibli.jp/gallery/majo002.jpg");
+    /* background: url("https://images.unsplash.com/photo-1528722828814-77b9b83aafb2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"); */
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img-grid {
+    display: flex;
+    padding-bottom: 20px;
+}
